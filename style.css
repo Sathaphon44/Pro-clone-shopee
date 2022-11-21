@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    display:block;
 }
 
 .content {
@@ -87,8 +88,15 @@ li {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.footer-item-size {
+.footer-item-size a{
     display: grid;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #3a3a3a;
+}
+
+.footer-item-size a:hover {
+    color:#ff6c37;
 }
 
 .navbar-content2 {
@@ -230,5 +238,15 @@ li {
 
 .text-main:hover {
     color:#ff6c37;
+}
+
+.contack {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-items span {
+    font-size: 14.5px;
 }
 
