@@ -214,9 +214,9 @@ li {
     height: 53px;
 }
 .control-ul-main li a{
-    color:#000000;
     font-family: 'Prompt', sans-serif;
 }
+
 .footer-content-end {
     display: flex;
     justify-content: space-between;
